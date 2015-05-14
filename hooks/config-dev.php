@@ -18,7 +18,7 @@
 
 	/*
 	 *	Configuration Definitions
-	 *	-------------------------
+	 *	--------------------------
 	 *
 	 *	Defaults:
 	 *		'repository' => '*'
