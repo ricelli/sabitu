@@ -12,10 +12,12 @@
 |
 | If this is not set then CodeIgniter will guess the protocol, domain and
 | path to your installation.
+|
 */
 
+<<<<<<< HEAD
 $config['base_url']	= 'http://200.133.202.156/sabitu';
-$config['app_name']	= 'SABITU';
+$config['app_name']	= 'SABITU DEV';
 $config['app_vers']	= 'Beta 1.0.0';
 $config['app_desc']	= 'Gerador de Formulários';
 
@@ -27,7 +29,6 @@ $config['adm_user']	= array(
 $config['adm_menu']	= array(
         				"Administradores"        => "adm",
         				"Formulários"            => "form",
-        				"Linhas de Pesquisa"     => "linhas",
         				"Campos (Formulários)"   => "campos",
         				"Relatórios (Inscritos)" => "relatorios"
         			  );

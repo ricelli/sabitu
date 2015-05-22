@@ -49,6 +49,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+
 $db['default']['hostname'] = '200.133.202.156';
 $db['default']['username'] = 'inscricao';
 $db['default']['password'] = 'inscricao';

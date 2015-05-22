@@ -25,11 +25,26 @@
 	 *		'branch' => '*'
 	 *		'username' => '*'
 	 *		'execute' => array()
+	*
 	 */
 
 	$boolDebugLogging = TRUE;
 
-	$arrConfig['SABITU'] = array(
+	$arrConfig['SABITU-DEV'] = array(
 		'repository' => 'sabitu',
-        'branch'     => 'dev',
-    	'execute'    => array('ssh -t tiusjc@lab.unifesp.br -p 2244 "/var/www/exec_git_sabitu"'));
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'branch'     => 'dev',
+                'execute'    => array('cd /var/www/sabitu-dev; git reset --hard 2>&1;git clean -f -d 2>&1;git pull producao dev'));
+=======
+								'branch'     => 'dev',
+								'execute'    => array('cd /var/www/sabitu-dev; git reset --hard 2>&1;git clean -f -d 2>&1;git pull develop dev'));
+>>>>>>> e416042f181c4bda724d2e76a1b437c1526012bb
+=======
+								'branch'     => 'dev',
+								'execute'    => array('cd /var/www/sabitu-dev; git reset --hard 2>&1;git clean -f -d 2>&1;git pull develop dev'));
+=======
+                'branch'     => 'dev',
+                'execute'    => array('cd /var/www/sabitu-dev; git reset --hard 2>&1;git clean -f -d 2>&1;git pull producao dev'));
+>>>>>>> dev
+>>>>>>> master
