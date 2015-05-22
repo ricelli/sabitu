@@ -15,8 +15,14 @@
 |
 */
 
+<<<<<<< HEAD
 $config['base_url']	= 'http://lab.unifesp.br/sabitu';
 $config['app_name']	= 'SABITU DEV';
+=======
+
+$config['base_url']	= 'http://ict.unifesp.br/sabitu';
+$config['app_name']	= 'SABITU';
+>>>>>>> master
 $config['app_vers']	= 'Beta 1.0.0';
 $config['app_desc']	= 'Gerador de Formulários';
 

@@ -122,7 +122,7 @@ class Campos extends MY_Controller {
           }
 
 
-          $this->crud->columns("form_id", "field", "type", "size", "label", "rules", "grid", "add_edit", "upload", "ordem");
+          $this->crud->columns("form_id", "field", "type", "size", "label","rules", "grid", "add_edit", "upload", "ordem");
           $this->crud->required_fields('field' , 'type');
 
           $this->crud->display_as('form_id','Formulário');
