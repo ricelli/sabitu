@@ -14,7 +14,7 @@ class Acessoerro extends CI_Controller {
 
     	$data['titulo']  = 'Acesso não autorizado';
     	$data['message'] = 'Voce nao tem permissao para entrar nessa pagina ';
-        $data['link']    = 'login';
+      $data['link']    = 'login';
 
 		$this->load->view('cabecalho');
         $this->load->view('acessoerro_view',$data);
