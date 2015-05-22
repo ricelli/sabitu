@@ -50,7 +50,7 @@ $active_group = 'default';
 $active_record = TRUE;
 
 
-$db['default']['hostname'] = '200.133.202.156';
+$db['default']['hostname'] = 'db.epm.br';
 $db['default']['username'] = 'websabitu';
 $db['default']['password'] = 'Utibasbew2015';
 $db['default']['database'] = 'web_sabitu';
