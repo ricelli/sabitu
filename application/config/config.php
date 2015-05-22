@@ -28,7 +28,6 @@ $config['adm_user']	= array(
 $config['adm_menu']	= array(
         				"Administradores"        => "adm",
         				"Formulários"            => "form",
-        				"Linhas de Pesquisa"     => "linhas",
         				"Campos (Formulários)"   => "campos",
         				"Relatórios (Inscritos)" => "relatorios"
         			  );
