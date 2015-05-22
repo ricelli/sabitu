@@ -1,4 +1,0 @@
-echo "desenvolvimento no cobaia">> cobaia
-git add .
-git commit -m "desenvolvendo no cobaia"
-git push develop dev
