@@ -1,6 +1,6 @@
 {
     "type": "sftp",
-    "host": "lab.unifesp.br",
+    "host": "200.133.202.156",
     "username": "tiusjc",
     "password": "c0ck#Tco",
     "port": 2244,

@@ -14,7 +14,7 @@
 | path to your installation.
 */
 
-$config['base_url']	= 'http://ict.unifesp.br/sabitu';
+$config['base_url']	= 'http://200.133.202.156/sabitu';
 $config['app_name']	= 'SABITU';
 $config['app_vers']	= 'Beta 1.0.0';
 $config['app_desc']	= 'Gerador de Formulários';
